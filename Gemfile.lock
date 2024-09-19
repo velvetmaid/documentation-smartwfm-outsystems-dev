@@ -93,7 +93,8 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.3.4)
-  just-the-docs (= 0.10.0)
+  jekyll-seo-tag
+  just-the-docs
   wdm (>= 0.1.0)
 
 BUNDLED WITH

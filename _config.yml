@@ -1,4 +1,4 @@
-title: Documentation SmartWFM OutSytems Dev
+title: Doc-SWFM-OutSytems
 description: aaaa
 theme: just-the-docs
 
@@ -9,9 +9,13 @@ color_scheme: midnight
 plugins:
   - jekyll-seo-tag
   
+logo: https://www.outsystems.com/-/media/images/icons/outsystems-google-favicon.svg
 favicon_ico: https://www.outsystems.com/-/media/images/icons/outsystems-google-favicon.svg
 # "https://smartwfm.network.telkomsel.co.id/Telkomsel_SmartWFM/favicon.png"
+
+nav_enabled: true
 
 back_to_top: true
 back_to_top_text: "Back to top"
 
+footer_content: "Copyright &copy; 2017-2020 <a href=\"https://velvetmaid.github.io/documentation-smartwfm-outsystems-dev/\">SWFM Outsystems Dev</a>"

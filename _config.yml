@@ -1,8 +1,17 @@
 title: Documentation SmartWFM OutSytems Dev
-description: A starter template for a Jeykll site using the Just the Docs theme!
+description: aaaa
 theme: just-the-docs
 
 url: https://velvelmaid.github.io/documentation-smartwfm-outsystems-dev
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+color_scheme: midnight
+
+plugins:
+  - jekyll-seo-tag
+  
+favicon_ico: https://www.outsystems.com/-/media/images/icons/outsystems-google-favicon.svg
+# "https://smartwfm.network.telkomsel.co.id/Telkomsel_SmartWFM/favicon.png"
+
+back_to_top: true
+back_to_top_text: "Back to top"
+

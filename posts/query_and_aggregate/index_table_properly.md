@@ -20,7 +20,7 @@ There are some types of index, but generally we only use B-Tree and Hash.
 ### Example
 Let's say we have table and query like this
 
-![](https://smartwfm-1.gitbook.io/~gitbook/image?url=https%3A%2F%2F2965834173-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F8bJznGZQyIrzjCOGYuPg%252Fuploads%252FrfqFAj9quNXQkCENAcwo%252Fimage.png%3Falt%3Dmedia%26token%3D6fc2d0c7-ba20-400e-b5bd-fc1738ec2eaa&width=400&dpr=2&quality=100&sign=3fc561b4&sv=1)
+![](https://smartwfm-1.gitbook.io/~gitbook/image?url=https%3A%2F%2F2965834173-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F8bJznGZQyIrzjCOGYuPg%252Fuploads%252FrfqFAj9quNXQkCENAcwo%252Fimage.png%3Falt%3Dmedia%26token%3D6fc2d0c7-ba20-400e-b5bd-fc1738ec2eaa&width=400&dpr=2&quality=100&sign=3fc561b4&sv=1){: style="display:block; margin-left:auto; margin-right:auto;"}
 
 ```sql
 SELECT * FROM posts WHERE created_at = '2024-06-01'

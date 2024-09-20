@@ -1,7 +1,6 @@
 ---
-title: 📢Introduction
+title: 📢 Introduction
 layout: home
-dropdown: true
 nav_order: 1
 ---
 

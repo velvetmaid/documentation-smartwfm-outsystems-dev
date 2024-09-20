@@ -5,6 +5,8 @@ theme: just-the-docs
 url: https://velvelmaid.github.io/documentation-smartwfm-outsystems-dev
 
 color_scheme: midnight
+search:
+  button: true
 
 # Makes Aux links open in a new tab
 aux_links_new_tab: true

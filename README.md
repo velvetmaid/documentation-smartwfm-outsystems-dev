@@ -46,3 +46,7 @@ ___
 ## Posting Content via Prose.io
 
 You can easily edit and add new content to this documentation site using [Prose.io](https://prose.io/#velvetmaid/documentation-smartwfm-outsystems-dev/tree/main/posts), a user-friendly interface for managing content in GitHub repositories.
+
+
+### Credit
+- Abby Rafdi Cakrasena

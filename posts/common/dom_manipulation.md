@@ -13,6 +13,8 @@ An overview of how to manipulate the Document Object Model (DOM) to display JSON
 
 Okay, let's start. So, let's assume there is a `<div>` widget with the ID `WrapperTable`, like shown here.
 
+![](./image/div_wrappertable.png){: style="display:block; margin:auto;"}
+
 Wrote this in the On Render:
 
 ```javascript

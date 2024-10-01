@@ -22,7 +22,7 @@ text.textContent = "Hello World";
 div.appendChild(text);
 ```
 
-![](../common/image/create_element.png){: style="display:block; margin:auto;"}
+![](./image/create_element.png){: style="display:block; margin:auto;"}
 
 #### Explanation:
 
@@ -38,6 +38,11 @@ So, your HTML structure looks like this:
   <h1>Hello World</h1>
 </div>
 ```
+
+![](./image/hello_world_text.png){: style="display:block; margin:auto;"}
+
+
+
 
 ===
 Yeaahh exactly! That's how the DOM works—manipulating elements, Now, let's

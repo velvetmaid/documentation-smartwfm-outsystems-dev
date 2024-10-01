@@ -245,7 +245,7 @@ That's how it's done.
 
 ![](table_html_output_2.png){: style="display:block; margin-left:auto; margin-right:auto;"}
 
-[](https://personal-cd69monp.outsystemscloud.com/Lesson/ThisIsAExampleForUsingADOMButYeahThatsIt)
+[See...](https://personal-cd69monp.outsystemscloud.com/Lesson/ThisIsAExampleForUsingADOMButYeahThatsIt)
 
 > Full Code
 

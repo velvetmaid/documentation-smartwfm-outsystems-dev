@@ -303,3 +303,9 @@ jsonData.Data.forEach((item, index) => {
 table.appendChild(tbody);
 wrapperTable.appendChild(table);
 ````
+
+
+
+
+More:
+- [JavaScript CheatSheet](https://websitesetup.org/wp-content/uploads/2020/09/Javascript-Cheat-Sheet.pdf)

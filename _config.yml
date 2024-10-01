@@ -11,6 +11,9 @@ search:
 lightbox: true
 
 # Makes Aux links open in a new tab
+aux_links:
+  Edit this post at Prose.io:
+    - https://prose.io/#velvetmaid/documentation-smartwfm-outsystems-dev/tree/main/posts
 aux_links_new_tab: true
 # aux_links: false
 
@@ -26,4 +29,5 @@ favicon_ico: https://www.outsystems.com/-/media/images/icons/outsystems-google-f
 back_to_top: true
 back_to_top_text: "Back to top"
 
+github_link: "https://github.com/velvetmaid/documentation-smartwfm-outsystems-dev"
 footer_content: "Copyright &copy; 2024 <a href=\"https://velvetmaid.github.io/documentation-smartwfm-outsystems-dev/\">SWFM Outsystems Dev</a>"

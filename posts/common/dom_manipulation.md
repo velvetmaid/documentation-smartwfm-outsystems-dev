@@ -241,6 +241,8 @@ And in the end, the table will look something like this, with a clean and polish
 </table>
 ````
 
+![](./image/table_html_output_2.png){:style="display:block; margin-left:auto; margin-right:auto;"}
+
 That's how it's done.
 
 ![](./image/screen_os.png){:style="display:block; margin-left:auto; margin-right:auto;"}

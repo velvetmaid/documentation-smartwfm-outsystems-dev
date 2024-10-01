@@ -12,12 +12,11 @@ Some syntax may not be found in standard SQL, OutSystems has specific adjustment
 
 ## Table of Contents
 1. [Filtering with LIKE](#filtering-with-like)
-
+2. [Range]
 ___
 
 
 ### Filtering with LIKE
-
 ```sql
 SELECT * FROM MyEntity WHERE user_name LIKE '%' || @Parameter || '%'
 

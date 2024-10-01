@@ -123,8 +123,6 @@ This structure repeats the People object for each record, which can be a bit red
 }
 ```
 
-![](./image/console_log_json_string_output.png){: style="display:block; margin:auto;"}
-
 ![](./image/console_log_list_record_json.png){: style="display:block; margin:auto;"}
 
 Since the input data type for the JSON being used is text, the output JSON will automatically be a string. Therefore, before defining the JSON data it should be parsed first like this:

@@ -8,6 +8,8 @@ color_scheme: midnight
 search:
   button: true
 
+lightbox: true
+
 # Makes Aux links open in a new tab
 aux_links_new_tab: true
 # aux_links: false

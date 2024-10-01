@@ -39,6 +39,7 @@ So, your HTML structure looks like this:
 </div>
 ```
 
+===
 Yeaahh exactly! That's how the DOM works—manipulating elements, Now, let's
 move on to the next topic, which is how to populate JSON data into the DOM
 itself. I’ll add an aggregate first, so it seems like I have data that I will
@@ -88,7 +89,7 @@ record in OutSystems, the data structure will look like this:
 
 This structure repeats the People object for each record, which can be a bit redundant if you just want to access the individual attributes directly. You might want to simplify this format in your JavaScript to access the data more easily.
 
-"Since I want the data to look simple, I created the structure like this, see this image. Then it turned out like this:
+Since I want the data to look simple, I created the structure like this, see this image. Then it turned out like this:
 
 ![](./image/structured_agg.png){: style="display:block; margin:auto;"}
 

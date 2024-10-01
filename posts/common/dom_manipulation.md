@@ -196,8 +196,6 @@ Based on the resulting HTML structure for the table will look like this:
 </div>
 ```
 
-![](./image/hello_world_text.png){: style="display:block; margin:auto;"}
-
 ![](./image/table_html_output.png){: style="display:block; margin:auto;"}
 
 > To style the table so that it aligns with the default OutSystems UI style, you can add some CSS classes and styles to your HTML.

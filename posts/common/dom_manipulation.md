@@ -22,7 +22,7 @@ text.textContent = "Hello World";
 div.appendChild(text);
 ```
 
-![](../common/image/create_element.png){: style="display:block; margin-left:auto; margin-right:auto;"}
+![](../common/image/create_element.png){: style="display:block; margin:auto;"}
 
 #### Explanation:
 
@@ -33,27 +33,64 @@ div.appendChild(text);
 
 So, your HTML structure looks like this:
 
-````html
+```html
 <div data-container="" id="WrapperTable">
   <h1>Hello World</h1>
 </div>
-``` Yeaahh exactly! That's how the DOM works—manipulating elements, Now, let's
+```
+
+Yeaahh exactly! That's how the DOM works—manipulating elements, Now, let's
 move on to the next topic, which is how to populate JSON data into the DOM
 itself. I’ll add an aggregate first, so it seems like I have data that I will
-later convert to JSON. ![](./image/agg_getpeoples.png) When you have a list
-record in OutSystems, the data structure will look like this: ```json [
-{"People":{"Id":1,"Name":"Kiky","Email":"Kiky@email.com","Phone":"081200000001"}},
-{"People":{"Id":2,"Name":"Dian","Email":"Dian@email.com","Phone":"081200000002"}},
-{"People":{"Id":3,"Name":"Fiki","Email":"Fiki@email.com","Phone":"081200000003"}},
-{"People":{"Id":4,"Name":"Abby","Email":"Abby@email.com","Phone":"081200000004"}}
+later convert to JSON.
+
+![](./image/agg_getpeoples.png){: style="display:block; margin:auto;"}
+
+When you have a list
+record in OutSystems, the data structure will look like this:
+
+```json
+[
+  {
+    "People": {
+      "Id": 1,
+      "Name": "Kiky",
+      "Email": "Kiky@email.com",
+      "Phone": "081200000001"
+    }
+  },
+  {
+    "People": {
+      "Id": 2,
+      "Name": "Dian",
+      "Email": "Dian@email.com",
+      "Phone": "081200000002"
+    }
+  },
+  {
+    "People": {
+      "Id": 3,
+      "Name": "Fiki",
+      "Email": "Fiki@email.com",
+      "Phone": "081200000003"
+    }
+  },
+  {
+    "People": {
+      "Id": 4,
+      "Name": "Abby",
+      "Email": "Abby@email.com",
+      "Phone": "081200000004"
+    }
+  }
 ]
-````
+```
 
 This structure repeats the People object for each record, which can be a bit redundant if you just want to access the individual attributes directly. You might want to simplify this format in your JavaScript to access the data more easily.
 
 "Since I want the data to look simple, I created the structure like this, see this image. Then it turned out like this:
 
-![](./image/structured_agg.png){: style="display:block; margin-left:auto; margin-right:auto;"}
+![](./image/structured_agg.png){: style="display:block; margin:auto;"}
 
 ```json
 {
@@ -86,9 +123,9 @@ This structure repeats the People object for each record, which can be a bit red
 }
 ```
 
-![](./image/console_log_json_string_output.png){: style="display:block; margin-left:auto; margin-right:auto;"}
+![](./image/console_log_json_string_output.png){: style="display:block; margin:auto;"}
 
-![](./image/console_log_list_record_json.png){: style="display:block; margin-left:auto; margin-right:auto;"}
+![](./image/console_log_list_record_json.png){: style="display:block; margin:auto;"}
 
 Since the input data type for the JSON being used is text, the output JSON will automatically be a string. Therefore, before defining the JSON data it should be parsed first like this:
 
@@ -155,13 +192,13 @@ Based on the resulting HTML structure for the table will look like this:
 </div>
 ```
 
-![](./image/table_html_output.png){: style="display:block; margin-left:auto; margin-right:auto;"}
+![](./image/table_html_output.png){: style="display:block; margin:auto;"}
 
 > To style the table so that it aligns with the default OutSystems UI style, you can add some CSS classes and styles to your HTML.
 
 Okay, let's create it like this so that it looks similar to the table
 
-![](./image/widget_table.png){: style="display:block; margin-left:auto; margin-right:auto;"}
+![](./image/widget_table.png){: style="display:block; margin:auto;"}
 
 It’s quite simple, just add the `className` like this:
 
@@ -196,19 +233,19 @@ And in the end, the table will look something like this, with a clean and polish
     ```
   </tbody>
 </table>
-```
+````
 
 That's how it's done.
 
-![alt text](./image/screen_os.png){: style="display:block; margin-left:auto; margin-right:auto;"}
+![](./image/screen_os.png){:style="display:block; margin-left:auto; margin-right:auto;"}
 
-![alt text](table_html_output_2.png){: style="display:block; margin-left:auto; margin-right:auto;"}
+![](table_html_output_2.png){: style="display:block; margin-left:auto; margin-right:auto;"}
 
 [](https://personal-cd69monp.outsystemscloud.com/Lesson/ThisIsAExampleForUsingADOMButYeahThatsIt)
 
 > Full Code
 
-```javascript
+````javascript
 const jsonString = $parameters.JSON;
 const jsonData = JSON.parse(jsonString);
 const wrapperTable = document.getElementById("WrapperTable");
@@ -259,4 +296,4 @@ jsonData.Data.forEach((item, index) => {
 
 table.appendChild(tbody);
 wrapperTable.appendChild(table);
-```
+````

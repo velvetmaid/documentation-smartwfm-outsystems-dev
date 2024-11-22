@@ -1,4 +1,3 @@
-
 ---
 title: DBeaver Postgresql driver files are missing
 layout: home

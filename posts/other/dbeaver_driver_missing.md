@@ -12,18 +12,18 @@ ___
 
 ***You getting error like this...***
 
-1. First, remove all the drivers you have from the libraries tab
+- First, remove all the drivers you have from the libraries tab
 
 ![](https://drive.google.com/thumbnail?id=1v9sgA6ZiNUtdnA3aVtw-I_FBDXmyzbJT&sz=w1000){: style="display:block; margin:auto;"}
 
-2. After you remove them, click "Add Files" and search for the "maven-central" folder at this path: C:\Program Files\DBeaver\driver\maven\maven-central
+- After you remove them, click "Add Files" and search for the "maven-central" folder at this path: C:\Program Files\DBeaver\driver\maven\maven-central
 
 ![](https://drive.google.com/thumbnail?id=1URcDG9QUX1e_RTYBznJJ91qQOIbBNndU&sz=w1000){: style="display:block; margin:auto;"}
 
-3. In the search bar and type "postgre" then add this file
+- In the search bar and type "postgre" then add this file
 
 ![](https://drive.google.com/thumbnail?id=19F4J92HhyFpoNlDT57iCVxeCK4iMHHLe&sz=w1000){: style="display:block; margin:auto;"}
 
 ![](https://drive.google.com/thumbnail?id=1JKCKZX1Xs7jJ2l9zFHOLb8FqxWH9OLa6&sz=w1000){: style="display:block; margin:auto;"}
 
-4. OK & Finish
+- OK & Finish

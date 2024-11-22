@@ -8,22 +8,22 @@ nav_order: 1
 # DBeaver Postgresql driver files are missing
 ___
 
-![](https://drive.google.com/file/d/1RcRjQPIoIGP1JM8u3THAIoxX2EgJhZ5C/view?usp=sharing){: style="display:block; margin:auto;"}
+![](https://drive.google.com/uc?id=1RcRjQPIoIGP1JM8u3THAIoxX2EgJhZ5C){: style="display:block; margin:auto;"}
 
 ***You getting error like this...***
 
 1. First, remove all the drivers you have from the libraries tab
 
-![](https://drive.google.com/file/d/1v9sgA6ZiNUtdnA3aVtw-I_FBDXmyzbJT/view?usp=sharing){: style="display:block; margin:auto;"}
+![](https://drive.google.com/uc?id=1v9sgA6ZiNUtdnA3aVtw-I_FBDXmyzbJT){: style="display:block; margin:auto;"}
 
 2. After you remove them, click "Add Files" and search for the "maven-central" folder at this path: C:\Program Files\DBeaver\driver\maven\maven-central
 
-![](https://drive.google.com/file/d/1URcDG9QUX1e_RTYBznJJ91qQOIbBNndU/view?usp=sharing){: style="display:block; margin:auto;"}
+![](https://drive.google.com/uc?id=1URcDG9QUX1e_RTYBznJJ91qQOIbBNndU){: style="display:block; margin:auto;"}
 
 3. In the search bar and type "postgre" then add this file
 
-![](https://drive.google.com/file/d/19F4J92HhyFpoNlDT57iCVxeCK4iMHHLe/view?usp=sharing){: style="display:block; margin:auto;"}
+![](https://drive.google.com/uc?id=19F4J92HhyFpoNlDT57iCVxeCK4iMHHLe){: style="display:block; margin:auto;"}
 
-![](https://drive.google.com/file/d/1JKCKZX1Xs7jJ2l9zFHOLb8FqxWH9OLa6/view?usp=sharing){: style="display:block; margin:auto;"}
+![](https://drive.google.com/uc?id=1JKCKZX1Xs7jJ2l9zFHOLb8FqxWH9OLa6){: style="display:block; margin:auto;"}
 
 4. OK & Finish

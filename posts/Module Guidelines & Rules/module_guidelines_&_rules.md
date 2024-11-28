@@ -1,4 +1,3 @@
-
 ---
 title: Module Guidelines & Rules
 layout: home

@@ -32,23 +32,22 @@ nav_order: 2
 
 > Bisa input price dan qty
 
-#### 3. Is Management Fee
-
 **Penjelasan:**
 
 - Harga akhir dihitung dengan menambahkan persentase dari harga `(harga × qty)`.
 
 **Contoh:**
 
-- Jika `price = 200` dan `qty = 3` 
-   **_hasil = price \* qty_**
+- Jika `price = 200` dan `qty = 3`
+  **_hasil = price \* qty_**
 
-  > **total = 200 \* 3 = 600**
-  > **Penjelasan:**
+  > **total = 200 \* 3 = 600** > **Penjelasan:**
+
+#### 3. Is Management Fee
 
 **Contoh:**
 
-- Jika `harga = 100`, `qty = 5`, dan `persentase = 10` 
+- Jika `harga = 100`, `qty = 5`, dan `persentase = 10`
   **_hasil = (harga × qty) + (harga × qty × (persentase / 100))_**
 
   > finalPrice = (100 × 5) + (100 × 5 × (10 / 100)) = 500 + 50 = **550**

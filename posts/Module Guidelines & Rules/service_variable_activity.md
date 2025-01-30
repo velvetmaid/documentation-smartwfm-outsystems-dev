@@ -23,7 +23,7 @@ nav_order: 2
 
 **Contoh:**
 
-- Jika `[harga = 100` dan `persentase = 10%`:
+- Jika `harga = 100` dan `persentase = 10%`:
   **_hasil = (persentase / 100) × harga_**
 
   > finalPrice = (10 / 100) × 100 = 10
@@ -34,15 +34,21 @@ nav_order: 2
 
 #### 3. Is Management Fee
 
-> Bisa input price dan qty
-
 **Penjelasan:**
 
-- Harga akhir dihitung dengan menambahkan persentase dari total harga `(harga × qty)`.
+- Harga akhir dihitung dengan menambahkan persentase dari harga `(harga × qty)`.
 
 **Contoh:**
 
-- Jika `harga = 100`, `qty = 5`, dan `persentase = 10`:
+- Jika `price = 200` dan `qty = 3` 
+   **_hasil = price \* qty_**
+
+  > **total = 200 \* 3 = 600**
+  > **Penjelasan:**
+
+**Contoh:**
+
+- Jika `harga = 100`, `qty = 5`, dan `persentase = 10` 
   **_hasil = (harga × qty) + (harga × qty × (persentase / 100))_**
 
-  > hasil = (100 × 5) + (100 × 5 × (10 / 100)) = 500 + 50 = **550**
+  > finalPrice = (100 × 5) + (100 × 5 × (10 / 100)) = 500 + 50 = **550**

@@ -9,13 +9,13 @@ nav_order: 1
 ___
 
 ## [Permission]
-- Create
+> Create
   - SPVTO
   - STAFFTO
-- Approval
+> Approval
   - SPVTO
 
 ### Flow
 1. Create ticket
 2. Approval ticket
-3. Jika terdapat tiket yang perlu direvisi ketik revise
+3. Jika terdapat tiket yang perlu direvisi, lakukan revise

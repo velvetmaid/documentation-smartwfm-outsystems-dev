@@ -41,7 +41,7 @@ nav_order: 2
 - Jika `price = 200` dan `qty = 3`
   **_hasil = price \* qty_**
 
-  > **total = 200 \* 3 = 600** > **Penjelasan:**
+  > **total = 200 \* 3 = 600**
 
 #### 3. Is Management Fee
 
